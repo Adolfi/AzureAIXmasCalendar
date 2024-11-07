@@ -1,18 +1,18 @@
-# AzureAIXmasCalendar
+# Knowit Azure AI Julkalender 🎅🏻
 Ett repository för Knowits Azure AI Julkalender. Här samlas alla kodexempel från Knowits Julkalender med fokus på Azure AI services.
 
-## Kalendern
-1. Introduktion till Azure AI Services och Azure AI Studio
-2. Model catalog, benchmarking and deployment i Azure AI Studio
-3. Skapa en Chat Bot med Azure Open AI
-4. Översättningar med Azure AI Translator
-5. Bildanalysering med Azure AI Vision
-6. Bildgenerering med Azure OpenAI Dall-E
-7. Speach Synthesis med Azure AI Speach
-8. TODO: Fil analysering med Azure AI Document Intelligence
-9. Vad är Content Safety och Responsible AI?
+## Kalendern 🎄
+1. Introduktion till **Azure AI Services** och **Azure AI Studio**
+2. **Model catalog**, **benchmarking** and **deployment** i Azure AI Studio
+3. Skapa en Chat Bot med **Azure Open AI**
+4. Översättningar med **Azure AI Translator**
+5. Bildanalysering med **Azure AI Vision**
+6. Bildgenerering med **Azure OpenAI Dall-E**
+7. Speach Synthesis med **Azure AI Speach**
+8. TODO: Fil analysering med **Azure AI Document Intelligence**
+9. Vad är **Content Safety** och **Responsible AI**?
 
-## Setup user secrets
+## Setup user secrets 
 För att komma igång med koden så behövs user-secrets sättas upp mot dina egna nycklar, dessa nycklar får man första dagen på kalendern när Azure AI Services skapas upp.
 
 ```
