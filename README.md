@@ -2,16 +2,15 @@
 Ett repository för Knowits Azure AI Julkalender. Här samlas alla kodexempel från Knowits Julkalender med fokus på Azure AI services.
 
 ## Kalendern 🎄
-1. Introduktion till **Azure AI Services** och **Azure AI Studio**
-2. **Model catalog**, **benchmarking** and **deployment** i Azure AI Studio
-3. Skapa en Chat Bot med **[Azure Open AI](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/OpenAIClient.cs#L11)**
+1. Introduktion till **Azure AI Services**, **Model browsing**, **Benchmarking** och **Deployments** i Azure AI Studio
+3. Chat Bot med **[Azure Open AI](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/OpenAIClient.cs#L11)**
 4. Översättningar med **[Azure AI Translator](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/TranslatorClient.cs#L7)**
 5. Bildanalysering med **[Azure AI Vision](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/VisionClient.cs#L8)**
 6. Bildgenerering med **[Azure OpenAI Dall-E](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/OpenAIClient.cs#L18)**
 7. Speach Synthesis med **[Azure AI Speach](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/SpeachClient.cs#L9)**
 8. TODO: Fil analysering med **[Azure AI Document Intelligence](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/DocumentIntelligenceClient.cs#L6)**
-9. Textanalysering med **[Azure AI Language](https://github.com/TODO)**
-9. Vad är **Content Safety** och **Responsible AI**?
+9. Textanalysering med **[Azure AI Language](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/TextAnalyticsClient.cs#L8)**
+10. Vad är **Content Safety** och **Responsible AI**?
 
 ## Setup user secrets 
 För att komma igång med koden så behövs user-secrets sättas upp mot dina egna nycklar, dessa nycklar får man första dagen på kalendern när Azure AI Services skapas upp.
