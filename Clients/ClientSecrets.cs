@@ -12,6 +12,7 @@ public class UserSecrets
     public string VisionEndpoint { get; private set; }
     public string SpeachRegion { get; private set; }
     public string DocumentIntelligenceEndpoint { get; private set; }
+    public string LanguageEndpoint { get; private set; }
     
     public UserSecrets()
     {
@@ -26,5 +27,6 @@ public class UserSecrets
         this.VisionEndpoint = config["visionEndpoint"];
         this.SpeachRegion = config["speachRegion"];
         this.DocumentIntelligenceEndpoint = config["documentIntelligenceEndpoint"];
+        this.LanguageEndpoint = config["languageEndpoint"];
     }
 }
