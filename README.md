@@ -10,7 +10,7 @@ Ett repository för Knowits Azure AI Julkalender. Här samlas alla kodexempel fr
 7. Speach Synthesis med **[Azure AI Speach](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/SpeachClient.cs#L9)**
 8. Fil analysering med **[Azure AI Document Intelligence](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/DocumentIntelligenceClient.cs#L6)**
 9. Textsummering med **[Azure AI Language](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/LanguageClient.cs#L8)**
-10. TODO: Vad är **Content Safety** och **Responsible AI**?
+10. Hur fungerar **[Content Safety Filters](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Program.cs#L26)** och vad är **Responsible AI**?
 
 ## Setup user secrets 
 För att komma igång med koden så behövs user-secrets sättas upp mot dina egna nycklar, dessa nycklar får man första dagen på kalendern när Azure AI Services skapas upp.
