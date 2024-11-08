@@ -2,7 +2,7 @@
 Ett repository för Knowits Azure AI Julkalender. Här samlas alla kodexempel från Knowits Julkalender med fokus på Azure AI services.
 
 ## Kalendern 🎄
-1. Introduktion till **Azure AI Services**, **Model browsing**, **Benchmarking** och **Deployments** i Azure AI Studio
+1. TODO: Introduktion till **Azure AI Services**, **Model browsing**, **Benchmarking** och **Deployments** i Azure AI Studio
 3. Chat Bot med **[Azure Open AI](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/OpenAIClient.cs#L11)**
 4. Översättningar med **[Azure AI Translator](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/TranslatorClient.cs#L7)**
 5. Bildanalysering med **[Azure AI Vision](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/VisionClient.cs#L8)**
