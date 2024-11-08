@@ -10,6 +10,7 @@ Ett repository för Knowits Azure AI Julkalender. Här samlas alla kodexempel fr
 6. Bildgenerering med **[Azure OpenAI Dall-E](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/OpenAIClient.cs#L18)**
 7. Speach Synthesis med **[Azure AI Speach](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/SpeachClient.cs#L9)**
 8. TODO: Fil analysering med **[Azure AI Document Intelligence](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/DocumentIntelligenceClient.cs#L6)**
+9. Textanalysering med **[Azure AI Language](https://github.com/TODO)**
 9. Vad är **Content Safety** och **Responsible AI**?
 
 ## Setup user secrets 
@@ -26,5 +27,6 @@ dotnet user-secrets set translatorRegion <your-azure-ai-translator-region>
 dotnet user-secrets set visionEndpoint <your-azure-ai-vision-endpoint>
 dotnet user-secrets set speachEndpoint <your-azure-ai-speach-endpoint> 
 dotnet user-secrets set speachRegion <your-azure-ai-speach-region>
+dotnet user-secrets set languageEndpoint <your-azure-ai-language-endpoint>
 dotnet user-secrets list
 ```
