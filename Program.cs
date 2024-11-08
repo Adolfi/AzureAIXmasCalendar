@@ -19,6 +19,8 @@ Console.WriteLine(await new SpeachClient().SpeakAsync("Merry Christmas everyone!
 // TODO: Azure Document Intelligence
 Console.WriteLine(new DocumentIntelligenceClient().GetFileContentLanguageResult("TODO: PATH", secrets));
 
-// TODO: Azure AI Text Summarization
+// Azure AI Language
+Console.WriteLine(await new LanguageClient().GetTextSummarizationResultAsync("Christmas is a joyful holiday celebrated across the globe, filled with warmth, wonder, and tradition. It’s a season of lights, decorated trees, and family gatherings that bring people together to celebrate love, generosity, and hope. For many, Christmas marks the birth of Jesus Christ, making it a deeply spiritual and meaningful time to reflect on themes of faith, compassion, and gratitude.\r\n\r\nHomes are adorned with sparkling lights, wreaths, and ornaments, filling the air with festive cheer. Town squares and streets light up with holiday decorations, and many families embrace traditions like hanging stockings, setting out nativity scenes, and exchanging gifts under the Christmas tree. The aroma of freshly baked cookies, spiced cider, and holiday meals fills kitchens, creating a comforting sense of nostalgia and togetherness.", secrets));
 
 // TODO: Content Safety and Responsible AI example
+Console.ReadLine();

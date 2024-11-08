@@ -6,7 +6,7 @@ public class TranslatorClient
 {    
     public async Task<string> GetTranslateResult(string textToTranslate, string from, string to, UserSecrets secrets)
     {
-        object[] body = new object[] { new { Text = textToTranslate } };
+		object[] body = [new { Text = textToTranslate }];
         var requestBody = JsonConvert.SerializeObject(body);
 
         using (var client = new HttpClient())

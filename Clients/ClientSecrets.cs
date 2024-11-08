@@ -3,16 +3,16 @@ namespace Clients;
 
 public class UserSecrets
 {
-    public string AzureAIKey { get; private set; }
-    public string OpenAIEndpoint { get; private set; }
-    public string OpenAIDeployment { get; private set; }
-    public string OpenAIImageDeployment { get; private set; }
-    public string TranslatorEndpoint { get; private set; }
-    public string TranslatorRegion { get; private set; }
-    public string VisionEndpoint { get; private set; }
-    public string SpeachRegion { get; private set; }
-    public string DocumentIntelligenceEndpoint { get; private set; }
-    public string LanguageEndpoint { get; private set; }
+    public string? AzureAIKey { get; private set; }
+    public string? OpenAIEndpoint { get; private set; }
+    public string? OpenAIDeployment { get; private set; }
+    public string? OpenAIImageDeployment { get; private set; }
+    public string? TranslatorEndpoint { get; private set; }
+    public string? TranslatorRegion { get; private set; }
+    public string? VisionEndpoint { get; private set; }
+    public string? SpeachRegion { get; private set; }
+    public string? DocumentIntelligenceEndpoint { get; private set; }
+    public string? LanguageEndpoint { get; private set; }
     
     public UserSecrets()
     {

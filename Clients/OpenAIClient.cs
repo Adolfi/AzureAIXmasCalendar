@@ -1,6 +1,4 @@
-using Azure;
 using Azure.AI.OpenAI;
-using Azure.AI.OpenAI.Images;
 using OpenAI.Chat;
 using OpenAI.Images;
 
@@ -10,15 +8,15 @@ public class OpenAIClient
 {
     public string GetChatResult(string message, UserSecrets secrets)
     {
-        var azureClient = new AzureOpenAIClient(new Uri(secrets.OpenAIEndpoint), new System.ClientModel.ApiKeyCredential(secrets.AzureAIKey));
-        ChatCompletion completion = azureClient.GetChatClient(secrets.OpenAIDeployment).CompleteChat([new UserChatMessage(message)]);
+		AzureOpenAIClient azureClient = CreateAzureOpenAIClient(secrets);
+		ChatCompletion completion = azureClient.GetChatClient(secrets.OpenAIDeployment).CompleteChat([new UserChatMessage(message)]);
         return completion.Content[0].Text;
     }
 
     public async Task<Uri> GenerateImageAsync(string description, UserSecrets secrets)
     {
-        var azureClient = new AzureOpenAIClient(new Uri(secrets.OpenAIEndpoint), new System.ClientModel.ApiKeyCredential(secrets.AzureAIKey));
-        var client = azureClient.GetImageClient(secrets.OpenAIImageDeployment);
+		AzureOpenAIClient azureClient = CreateAzureOpenAIClient(secrets);
+		ImageClient client = azureClient.GetImageClient(secrets.OpenAIImageDeployment);
 
         var imageResult = await client.GenerateImageAsync(description, new()
         {
@@ -29,4 +27,9 @@ public class OpenAIClient
 
         return imageResult.Value.ImageUri;
     }
+
+    private AzureOpenAIClient CreateAzureOpenAIClient(UserSecrets secrets)
+    {
+        return new AzureOpenAIClient(new Uri(secrets.OpenAIEndpoint!), new System.ClientModel.ApiKeyCredential(secrets.AzureAIKey!));
+	}
 }
