@@ -8,7 +8,7 @@ Ett repository för Knowits Azure AI Julkalender. Här samlas alla kodexempel fr
 5. Bildanalysering med **[Azure AI Vision](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/VisionClient.cs#L8)**
 6. Bildgenerering med **[Azure OpenAI Dall-E](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/OpenAIClient.cs#L18)**
 7. Speach Synthesis med **[Azure AI Speach](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/SpeachClient.cs#L9)**
-8. TODO: Fil analysering med **[Azure AI Document Intelligence](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/DocumentIntelligenceClient.cs#L6)**
+8. Fil analysering med **[Azure AI Document Intelligence](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/DocumentIntelligenceClient.cs#L6)**
 9. Textsummering med **[Azure AI Language](https://github.com/Adolfi/AzureAIXmasCalendar/blob/main/Clients/LanguageClient.cs#L8)**
 10. TODO: Vad är **Content Safety** och **Responsible AI**?
 
