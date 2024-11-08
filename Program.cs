@@ -16,5 +16,9 @@ Console.WriteLine(await new OpenAIClient().GenerateImageAsync("A Christmas Tree"
 // Azure AI Speach
 Console.WriteLine(await new SpeachClient().SpeakAsync("Merry Christmas everyone!", secrets));
 
-// Azure Document Intelligence
+// TODO: Azure Document Intelligence
 Console.WriteLine(new DocumentIntelligenceClient().GetFileContentLanguageResult("TODO: PATH", secrets));
+
+// TODO: Azure AI Text Summarization
+
+// TODO: Content Safety and Responsible AI example
