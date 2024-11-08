@@ -26,6 +26,7 @@ dotnet user-secrets set translatorRegion <your-azure-ai-translator-region>
 dotnet user-secrets set visionEndpoint <your-azure-ai-vision-endpoint>
 dotnet user-secrets set speachEndpoint <your-azure-ai-speach-endpoint> 
 dotnet user-secrets set speachRegion <your-azure-ai-speach-region>
+dotnet user-secrets set documentIntelligenceEndpoint <your-azure-ai-document-intelligence-endpoint>
 dotnet user-secrets set languageEndpoint <your-azure-ai-language-endpoint>
 dotnet user-secrets list
 ```
